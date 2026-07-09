@@ -32,6 +32,14 @@ More or less real timer. It has minutes and seconds, so the input transforms fro
 
 the latest iteration with `direction` parameter added. Now the user can control in which direction the timer should work: either backwards (so we have a countdown) or forwards (then we just start counting from `0` till the amount specified in user input).
 
+**`constants`** (`./app/constants.ts`)
+
+Has constants. Doesn't make much sense in such small projects, but why not?
+
+**`helpers`** (`./app/helpers.ts`)
+
+Includes a helper function. Not entirely necessary in such a small project, but why not? I might have created it as a service, but opted for a simpler approach here.
+
 ## About this repository
 
 This does represent my coding skills to some extent. Since a lot of companies ask for a GitHub link (or some public code piece), I published it. For this exact reason, I haven't changed a lot in the naming here to keep it authentic to the process.
